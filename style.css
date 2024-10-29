@@ -112,8 +112,63 @@ a:hover {
     background: rgba(0, 0, 0, .1)
 }
 
+.grjj {
+    background-color: #f3f3f376;
+    height: 450px;
+}
+
+.grjj .photo img {
+    width: 350px;
+    height: 350px;
+}
+
+.grjj .left {
+    float: left;
+    padding: 50px;
+}
+
+.grjj .right {
+    float: left;
+    padding: 18px;
+}
+
+.grjj .xinxi {
+    float: left;
+    padding: 10px;
+    height: 200px;
+}
+
+.grjj .me {
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(0, 106, 255, 0.498);
+    height: 50px;
+    line-height: 50px;
+    padding: 20px;
+}
+
+.grjj .top {
+    width: 500px;
+    height: 100px;
+}
+
+.grjj .top>div,
+.grjj .bottom>div {
+    float: left;
+    padding: 0 20px;
+    width: 100px;
+}
 
 
-.grjj span {
+
+
+.grjj .xinxi span {
     font-family: 'icomoon';
+    font-size: 40px;
+}
+
+
+
+.grjl {
+    height: 450px;
 }
