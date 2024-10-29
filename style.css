@@ -99,7 +99,6 @@ a:hover {
     position: absolute;
     top: 0;
     right: 0;
-
 }
 
 .qr .qqqr,
@@ -169,6 +168,48 @@ a:hover {
 
 
 
-.grjl {
+.jl {
     height: 450px;
+}
+
+.jl .jianli {
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(0, 106, 255, 0.498);
+    height: 50px;
+    line-height: 50px;
+    padding: 20px 50px 10px;
+}
+
+.jl img {
+    height: 50px;
+    width: 50px;
+}
+
+.jl .edu,
+.jl .stu,
+.jl .honor {
+    padding: 10px 45px;
+    height: 100px;
+}
+
+.jl .left {
+    float: left;
+    padding: 20px;
+}
+
+.jl .right {
+    float: left;
+    padding: 20px;
+}
+
+.jl p {
+    /* display: block; */
+    /* float: left; */
+    padding: 2px 50px;
+}
+
+.bmit {
+    height: 450px;
+    background-color: #f3f3f376;
 }
