@@ -132,7 +132,6 @@ a:hover {
 }
 
 .grjj .xinxi {
-    float: left;
     padding: 10px;
     height: 200px;
 }
@@ -158,12 +157,14 @@ a:hover {
     width: 100px;
 }
 
-
-
-
 .grjj .xinxi span {
     font-family: 'icomoon';
     font-size: 40px;
+}
+
+.grjj .home {
+    padding: 20px;
+    font-size: 25px;
 }
 
 
