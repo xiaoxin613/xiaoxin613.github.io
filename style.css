@@ -18,7 +18,7 @@
 }
 
 .w {
-    width: 75%;
+    width: 1200px;
     margin: auto;
 }
 
@@ -30,6 +30,10 @@ a:visited,
 a:link,
 a:hover {
     color: white !important;
+}
+
+.clear {
+    clear: both;
 }
 
 .bg {
@@ -111,12 +115,13 @@ a:hover {
     background: rgba(0, 0, 0, .1)
 }
 
+/* 
 .grjj {
     background-color: #f3f3f376;
     height: 450px;
 }
 
-.grjj .photo img {
+.grjj img {
     width: 350px;
     height: 350px;
 }
@@ -128,6 +133,7 @@ a:hover {
 
 .grjj .right {
     float: left;
+    width: 60%;
     padding: 18px;
 }
 
@@ -165,7 +171,95 @@ a:hover {
 .grjj .home {
     padding: 20px;
     font-size: 25px;
+} 
+    */
+
+
+.grjj {
+    background-color: #f3f3f376;
+    height: 450px;
 }
+
+.f {
+    display: flex;
+    height: 100%;
+}
+
+.grjj .left {
+    flex: 0 0 25%;
+    /* 占 35% */
+    padding: 50px;
+    max-height: 350px;
+    /* 限制最大高度 */
+    overflow: hidden;
+    /* 隐藏超出部分 */
+}
+
+.grjj .right {
+    flex: 0 0 60%;
+    /* 占 65% */
+    padding: 18px;
+}
+
+.grjj img {
+    width: 100%;
+    /* 确保图片自适应宽度 */
+    height: auto;
+    /* 高度自动保持比例 */
+    object-fit: cover;
+    /* 保持图片比例并覆盖 */
+    min-width: 250px
+}
+
+.grjj .xinxi {
+    padding: 10px;
+    height: 200px;
+}
+
+.grjj .me {
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(0, 106, 255, 0.498);
+    height: 50px;
+    line-height: 50px;
+    padding: 20px;
+}
+
+.grjj .top,
+.grjj .bottom {
+    width: 100%;
+    /* 设置为100%以适应容器 */
+    display: flex;
+    /* 使用 Flexbox */
+}
+
+.grjj .top>div,
+.grjj .bottom>div {
+    padding: 0;
+    /* 清除内部填充 */
+    margin: 0 10px;
+    /* 设置左右间隔 */
+    flex: 0 0 auto;
+    /* 不强制占满可用空间 */
+    width: calc(33.33% - 20px);
+    /* 假设有三个 div，每个 div 占 33.33% 减去间隔 */
+    box-sizing: border-box;
+    /* 确保宽度包括内边距和边框 */
+}
+
+
+
+.grjj .xinxi span {
+    font-family: 'icomoon';
+    font-size: 40px;
+}
+
+.grjj .home {
+    padding: 20px;
+    font-size: 25px;
+}
+
+
 
 
 
